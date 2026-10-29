@@ -48,8 +48,7 @@ namespace Supermarket
                     dataGridView2.Columns["Адрес"].HeaderText = "Адрес";
                     dataGridView2.Columns["Телефон"].HeaderText = "Телефон";
 
-                    // Первичный ключ трогать нельзя
-                    dataGridView2.Columns["Код_поставщика"].ReadOnly = true;
+                    dataGridView2.Columns["Код_поставщика"].ReadOnly = false;
                 }
             }
             catch (Exception ex) { MessageBox.Show("Ошибка загрузки: " + ex.Message); }
