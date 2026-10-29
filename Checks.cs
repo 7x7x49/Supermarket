@@ -7,7 +7,7 @@ namespace Supermarket
 {
     public partial class Checks : Form
     {
-        // Строка подключения к вашей БД
+        // Строка подключения к БД
         private string connectionString =
             @"Server=DESKTOP-4GVGGCH,1433;Database=SupermarketDB;Integrated Security=True;TrustServerCertificate=True;";
 
